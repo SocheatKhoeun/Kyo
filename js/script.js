@@ -250,3 +250,13 @@ window.addEventListener("scroll", () => {
     // Scroll-based animations here
   });
 });
+
+document.querySelector("form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const email = this.querySelector("input[type='email']").value;
+  if (email) {
+    alert(`Thanks for contacting me, ${email}!`);
+  } else {
+    alert("Please enter a valid email.");
+  }
+});
