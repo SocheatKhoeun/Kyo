@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kyo - Full Stack Web Developer Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Socheat - Full Stack Web Developer Portfolio</title>
+    <meta name="description" content="Hi, I'm Socheat, a Full Stack Web Developer building fast, modern, and responsive web apps using React, Node.js, and Laravel." />
+    <meta name="keywords" content="Socheat, Full Stack Developer, Web Developer, Frontend Developer, Backend Developer, React, Node.js, Laravel, JavaScript, Vue, PHP, MongoDB, Portfolio, Software Engineer" />
+    <meta name="author" content="Socheat" />
+    <meta name="robots" content="index, follow" />
 
-  <meta name="description" content="Hi, I'm Kyo, a Full Stack Web Developer specializing in responsive, high-performance web apps using React, Node.js, and Laravel." />
-  <meta name="keywords" content="Kyo, Full Stack Developer, Web Developer, Frontend, Backend, React, Node.js, Laravel, JavaScript, Vue, PHP, MongoDB, Portfolio, Software Engineer" />
-  <meta name="author" content="Kyo" />
-  <meta name="robots" content="index, follow" />
+    <!-- Open Graph Meta (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Socheat - Full Stack Web Developer Portfolio" />
+    <meta property="og:description" content="Explore Socheat's portfolio of full stack projects built with React, Laravel, and Node.js." />
+    <meta property="og:image" content="https://kyo-tawny.vercel.app/images/preview.jpg" />
+    <meta property="og:url" content="https://kyo-tawny.vercel.app/" />
+    <meta property="og:type" content="website" />
 
-  <meta property="og:title" content="Kyo - Full Stack Web Developer Portfolio" />
-  <meta property="og:description" content="Explore Kyo's portfolio showcasing full stack web projects." />
-  <meta property="og:image" content="https://kyo-tawny.vercel.app/images/preview.jpg" />
-  <meta property="og:url" content="https://kyo-tawny.vercel.app/" />
-  <meta property="og:type" content="website" />
+    <!-- Twitter Card Meta -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Socheat - Full Stack Web Developer" />
+    <meta name="twitter:description" content="See Socheat's latest full stack web projects and frontend designs." />
+    <meta name="twitter:image" content="https://kyo-tawny.vercel.app/images/preview.jpg" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Kyo - Full Stack Web Developer" />
-  <meta name="twitter:description" content="See my latest work in web development." />
-  <meta name="twitter:image" content="https://kyo-tawny.vercel.app/images/preview.jpg" />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kyo-tawny.vercel.app/" />
 
-  <link rel="canonical" href="https://kyo-tawny.vercel.app/" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <!-- Favicon -->
+    <link rel="icon" href="/images/logo.png" type="image/x-icon" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+    <!-- PWA / Mobile Support -->
+    <meta name="theme-color" content="#ea580c" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Socheat Portfolio" />
+    <link rel="apple-touch-icon" href="/images/icons/icon-192x192.png" />
+    <link rel="manifest" href="/manifest.json" />
 
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Tailwind & Custom CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
   <body class="bg-white text-gray-800">
     <!-- Fixed Header -->
@@ -43,7 +58,7 @@
           <span
             class="text-2xl font-extrabold text-transparent bg-clip-text animate-gradient glow-text"
           >
-            Kyo
+            Socheat
           </span>
 
           <nav class="hidden md:flex gap-8 text-sm font-medium ml-auto">
@@ -74,12 +89,12 @@
             >
           </nav>
 
-          <a
+          <!-- <a
             href="#"
             class="hidden md:inline-block bg-gradient-to-r from-orange-600 to-orange-700 text-white px-6 py-2 rounded-full text-sm font-medium hover:from-orange-700 hover:to-orange-800 transition-all duration-300 hover:scale-105 hover:shadow-lg ml-4 animate-fade-in-up delay-600"
           >
             Download CV
-          </a>
+          </a> -->
         </div>
       </div>
     </header>
@@ -101,7 +116,7 @@
         <h2
           class="text-3xl font-bold text-orange-600 mb-2 glow-text animate-fade-in-left delay-100"
         >
-          Kyoichiro Kodasia
+          Socheat Kodasia
         </h2>
         <h1
           class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight animate-fade-in-left delay-200"
@@ -541,12 +556,20 @@
         <div class="border-t border-gray-800 pt-8 animate-on-scroll">
           <p class="text-gray-400 text-sm">
             © 2025
-            <span class="font-semibold text-orange-400">Kyoichiro Kodasia</span
+            <span class="font-semibold text-orange-400">Socheatichiro Kodasia</span
             >. All Rights Reserved.
           </p>
         </div>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <script>
+      // Register service worker for PWA
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/service-worker.js');
+        });
+      }
+    </script>
   </body>
 </html>
